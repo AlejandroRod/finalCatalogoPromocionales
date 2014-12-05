@@ -1,0 +1,283 @@
+/*FONTS
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+#crear{
+	color: #fff;
+	margin-top: 1.5em;
+	font-weight: 300;
+	margin-left: 55px;
+	margin-right: 55px;
+	padding: .4em .7em;
+	width: 280px;
+	border: 10px #fff solid;
+	text-transform: uppercase;
+	margin-bottom: 1.3em;
+}
+
+#editar{
+	color: #fff;
+	margin-top: 1.5em;
+	font-weight: 300;
+	margin-left: 55px;
+	margin-right: 55px;
+	padding: .4em .7em;
+	width: 280px;
+	border: 10px #fff solid;
+	text-transform: uppercase;
+	margin-bottom: 1.3em;
+}
+
+
+#eliminar{
+	color: #fff;
+	margin-top: 1.5em;
+	font-weight: 300;
+	margin-left: 55px;
+	margin-right: 55px;
+	padding: .4em .7em;
+	width: 360px;
+	border: 10px #fff solid;
+	text-transform: uppercase;
+	margin-bottom: 1.3em;
+}
+
+
+/*----------------*/
+/*--TABLA CREAR---*/
+
+#crear_form{
+	margin-top: 20px;
+	padding-left: 80px;
+	margin-bottom: 30px;
+}
+
+.space{
+	border: none;
+	color: #fff;
+	background-color: #d3d3d3;
+	height: 45px;
+	width: 300px;
+	line-height: 45px;
+	font-size: 1em;
+	padding: 1.4em 1.7em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+#submit{
+	border: 0;
+	background-color: #4690fb;
+	color: #fff;
+	height: 45px;
+	line-height: 45px;
+	width: 300px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	margin-top: 10px;
+	margin-left: 90px;
+}
+
+#submit:hover{
+	background-color: #327dd8;
+	cursor: pointer;
+}
+
+.explain{
+	color: #4690fb;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#icons div{
+	width: 85px;
+	height: 65px;
+	float: left;
+	margin-top: -5px;
+	margin-right: 5px;
+}
+
+
+#imagen{
+	background:url(../img/iconsfile1.png);
+	background-position: 0 -0px;
+}
+
+#img-sec{
+	background:url(../img/iconsfile1.png);
+	background-position: 0 -73px;
+}
+
+#nombre{
+	background:url(../img/iconsfile1.png);
+	background-position: 0 -142px;
+}
+
+#descripcion{
+	background:url(../img/iconsfile1.png);
+	background-position: 0 -211px;
+}
+
+#categoria{
+	background:url(../img/iconsfile1.png);
+	background-position: 0 -275px;
+}
+
+#categoria-sec{
+	background:url(../img/iconsfile1.png);
+	background-position: 0 -345px;
+}
+
+#tamano_frente{
+	background:url(../img/iconsfile1.png);
+	background-position: -8px -415px;
+}
+
+#tamano_altura{
+	background:url(../img/iconsfile1.png);
+	background-position: -8px -415px;
+}
+
+#tamano_profundidad{
+	background:url(../img/iconsfile1.png);
+	background-position: -8px -415px;
+}
+
+#tamano_diametro{
+	background:url(../img/iconsfile1.png);
+	background-position: -8px -415px;
+}
+
+#peso{
+	background:url(../img/iconsfile1.png);
+	background-position: -8px -480px;
+}
+
+/*-------------------*/
+/*--TABLA ELIMINAR---*/
+
+#eliminar_form{
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 80%;
+}
+
+.fondo_details, .fondo_details2{
+	background-color: #d3d3d3;
+	color: #4c4c4c;
+	height: 58px;
+	line-height: 58px;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fondo_details th{
+	width: 25%;
+}
+
+.fondo_details2 th{
+	width: 12.5%;
+}
+
+.list_details td{
+	font-family: 'Montserrat', sans-serif;	
+	background-color: #e0e0e0;
+}
+
+.details_text{
+	font-family: 'Montserrat', sans-serif;	
+	color: #4c4c4c;
+	padding: .3em 1.4em;
+}
+
+.size_details{
+	width: 25%;
+	height: 125px;
+	padding: 10px 0;
+}
+
+.size_details2{
+	height: 125px;
+}
+
+.producto_img{
+	width: 100px;
+	height: 100px;
+	padding-right: 20px;
+	position: absolute;
+	z-index: -99;
+	background-size: contain;
+}
+
+.btn_det{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #4690fb;
+	margin-left: 2em;
+	z-index: -99;
+	margin-top: 2em;
+/*
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 90%;
+	transition:ease-in-out .4s;
+	*/
+}
+
+.btn_det:hover{
+	background-color: #e74c3c;
+	cursor: pointer;
+}
+
+.estilop{
+	margin-top:-10px;
+}
+
+.editarp{
+	font-family: 'Montserrat', sans-serif;	
+	color: #4c4c4c;
+	padding: 0em .3em;
+	text-align: center;
+}
+
+.newbtn{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #4690fb;
+	line-height: 50px;
+	color: #fff;
+	padding: 1em;
+	border-radius: .3em;
+}
+
+.newbtn:hover{
+	cursor: pointer;
+	background-color: #e74c3c;
+}
+
+/*-----------------*/
+/*--TABLA EDITAR---*/
+
+#editarint_form{
+	width: 500px;
+	float: left;
+}
+
+.estilotitle{
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	color: #4c4c4c;
+}
+
+.positioninput{
+	float: left;
+}
